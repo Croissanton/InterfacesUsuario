@@ -1,0 +1,87 @@
+@import url("commonStyles.css");
+
+
+#timetable{
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #4aaaff;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    color: white;
+}
+
+#timetable tbody tr td{
+    height: 50px;
+    width: 100px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    text-align: center;
+}
+
+table {
+    margin-top: 40px;
+
+}
+
+#legend {
+    background-color: white;
+    border-width: 0;
+    border-color: white;
+    width: 75%;
+    text-align: center;
+}
+
+.box {
+    width: 30px;
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+}
+
+.hour, .empty{
+    background-color: lightblue;
+}
+
+#separator {
+    background-color: gray;
+}
+
+.english, #orange {
+    background-color: orange;
+}
+
+.networking, #blue {
+    background-color: rgb(111, 0, 255);
+}
+
+.algorithmics, #yellow {
+    background-color: yellow;
+}
+
+.databases, #pink {
+    background-color: pink;
+}
+
+.software, #white {
+    background-color: white;
+}
+
+.programming, #palegreen {
+    background-color: palegreen;
+}
+
+.sport, #green {
+    background-color: rgb(0, 184, 0);
+}
+
+.cs, #orangered {
+    background-color: orangered;
+}
+
+.web, #darkgreen {
+    background-color: darkgreen;
+}

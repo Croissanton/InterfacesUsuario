@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link href="styles/stylesTimetable.css" rel="stylesheet" type="text/css" />
+    <title>Timetable</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <h1>My personal website</h1>
+        <h2>Weekly timetable</h2>
+      </header>
+      <!-- Navigation menu -->
+      <nav>
+        <ul>
+          <li><a href="index.html">Welcome</a></li>
+          <li><a href="cv.html">My CV</a></li>
+          <li><a id="current" href="timetable.html">Weekly Timetable</a></li>
+          <li><a href="photos.html">Photos</a></li>
+        </ul>
+      </nav>
+      <!-- Contetn of the page -->
+      <section id="content">
+        <table id="timetable">
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>Monday</th>
+              <th>Tuesday</th>
+              <th>Wednesday</th>
+              <th>Thursday</th>
+              <th>Friday</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class = "hour">8h-10h</td>
+              <td class = "english">English</td>
+              <td class = "empty"></td>
+              <td class = "databases">Databases</td>
+              <td rowspan="2" class = "web">Web technologies</td>
+              <td rowspan="2" class = "programming">Programming</td>
+            </tr>
+            <tr>
+              <td class= "hour">10h-12h</td>
+              <td class = "networking">Networking</td>
+              <td class = "algorithmics">Algorithmics</td>
+              <td class = "software">Software Engineering</td>
+            </tr>
+            <tr id="separator">
+              <td colspan="6"></td>
+            </tr>
+            <tr>
+              <td class = "hour">13h-15h</td>
+              <td rowspan="2" class = "databases">Databases</td>
+              <td rowspan="2" class = "programming">Programming</td>
+              <td class = "cs">Computer Systems</td>
+              <td rowspan="2" class = "sport">Sport</td>
+              <td class = "english">English</td>
+            </tr>
+            <tr>
+              <td class = "hour">15h-17h</td>
+              <td class = "empty"></td>
+              <td class = "empty"></td>
+            </tr>
+          </tbody>
+        </table>
+        <table id="legend">
+          <tbody>
+            <tr>
+              <td id = "yellow" class = "box"></td>
+              <td>Algorithmics</td>
+              <td id = "white" class = "box"></td>
+              <td>Software Engineering</td>
+              <td id = "green" class = "box"></td>
+              <td>Sport</td>
+            </tr>
+            <tr>
+              <td id = "orange" class = "box"></td>
+              <td>English</td>
+              <td id = "palegreen" class = "box"></td>
+              <td>Programming</td>
+              <td id = "orangered" class = "box"></td>
+              <td>Computer Systems</td>
+            </tr>
+            <tr>
+              <td id = "pink" class = "box"></td>
+              <td>Databases</td>
+              <td id = "blue" class = "box"></td>
+              <td>Networking</td>
+              <td id = "darkgreen" class = "box"></td>
+              <td>Web Technologies</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+  </body>
+</html>

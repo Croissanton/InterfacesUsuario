@@ -1,0 +1,19 @@
+@import url("commonStyles.css");
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: blue;
+    border-width: 1px;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    width : 118px;
+}

@@ -1,0 +1,23 @@
+@import url("commonStyles.css");
+
+h2 {
+    clear: both;
+    background-color: cyan;
+}
+
+img {
+    float: left;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-bottom: 8px;
+    padding: 4px;
+}
+
+dd span {
+    float: right;
+}
